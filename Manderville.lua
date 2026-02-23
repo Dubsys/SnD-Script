@@ -549,7 +549,7 @@ local function ReturnToInn()
 end
 
 local function MoveToPhantomVillage()
-    TravelToZone("Phantom Village", PHANTOM_VILLAGE_ID)
+    TravelToZone("Radz-At-Han", PHANTOM_VILLAGE_ID)
 end
 
 -- =========================================================
