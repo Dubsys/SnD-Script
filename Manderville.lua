@@ -438,8 +438,8 @@ end
 -- Variable State + Tables
 -- =========================================================
 local ArcaniteTypes  = {
-    {name = "Manderium Meteorite",         id = 1},
-    {name = "Complementary Chondrite",  id = 0},
+    {name = "Manderium Meteorite",         id = 0},
+    {name = "Complementary Chondrite",  id = 1},
     {name = "Amplifying Achondrite",  id = 2},
     {name = "Cosmic Crystallite", id = 3}
 }
