@@ -11,7 +11,7 @@ plugin_dependencies:
 - vnavmesh
 configs:
   Mathematics Tome Limit:
-    description: The number of Mathematics tomes to gather before spending them.
+    description: The number of Poetic tomes to gather before spending them.
     default: 1500
     min: 500
     max: 2000
@@ -461,7 +461,7 @@ for i = 1, #DungList do
 end
 
 -- Config reads
-local mathematicsLimit    = toNumberSafe(Config.Get("Mathematics Tome Limit"), 1500, 0)
+local mathematicsLimit    = toNumberSafe(Config.Get("Poetic Tome Limit"), 1500, 0)
 local maxPurchases        = toNumberSafe(Config.Get("Max Purchase Cycles"), 0, 0)
 local arcanitePick        = tostring(Config.Get("Arcanite type") or "Manderium Meteorite")
 local dungeonPick         = tostring(Config.Get("Dungeon") or "The Porta Decumana")
